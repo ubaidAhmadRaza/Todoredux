@@ -11,7 +11,7 @@ function App() {
   
   return (
     <>
-      <h1>Learn about redux toolkit</h1>
+      <h1>Your Todos manager</h1>
       <AddTodo />
       {/* <div className="flex flex-wrap gap-y-3"> */}
        
