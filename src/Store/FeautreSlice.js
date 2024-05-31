@@ -1,8 +1,12 @@
 import { createSlice,nanoid } from "@reduxjs/toolkit";
 
 
+const storedTodos = JSON.parse(localStorage.getItem("todos")) || [];
 
-const initialState={todos:[{id:1,todo:"ddf"}]}
+
+const initialState = {
+    todos: storedTodos,
+  };
 const todoSlice=createSlice(
     {
     name:"todo",
